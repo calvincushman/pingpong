@@ -1,4 +1,4 @@
-var userInput = parseInt(prompt("please input a number"));
+var userInput ;
 
 var countCondition = userInput;
 
@@ -11,7 +11,7 @@ var pingPong = function (countCondition) {
 
       if(i % 15 === 0) {
         output.push("ping-pong!");
-  
+
       }
 
       else if((i % 3 === 0) && (i % 15 !== 0)) {
@@ -29,7 +29,9 @@ var pingPong = function (countCondition) {
   }
 }
 
+$(function() {
 
-// $(function() {
-//   $("ul")append("li").output();
-// })
+
+
+event.preventDefault();
+})
