@@ -1,0 +1,42 @@
+body {
+  font-family: 'Chewy', cursive;
+  background-image: url(https://cdn0.vox-cdn.com/thumbor/bbw0sNeU5TY-EqH9wLtTIpfzzGM=/9x0:839x467/1600x900/cdn0.vox-cdn.com/assets/4018891/Screen_Shot_2014-02-17_at_5.38.18_PM.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+#input {
+  max-width: 200px;
+  float: right;
+  margin-right: 460px;
+  margin-left: 460px;
+}
+
+.well {
+  background-color: #ff4949;
+}
+
+.header {
+  margin-top: 10px;
+  max-width: 200px;
+  float: right;
+  margin-left: 460px;
+  margin-right: 460px;
+}
+
+.game {
+  margin-top: 10px;
+  max-width: 200px;
+  float: right;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+#submit {
+  margin-top: 10px;
+  max-width: 200px;
+  float: right;
+  margin-left: 510px;
+  margin-right: 510px;
+}
