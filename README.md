@@ -1,12 +1,12 @@
-# _{Application Name}_
+# _{Ping Pong}_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _{An app that takes a user input number and returns a ping pong game}, {last updated on May 5th 2017}_
 
-#### By _**{List of contributors}**_
+#### By _**{Created by Calvin Cushman}**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_{Ping pong takes a number input by the user and processes the number returning a list of numbers in which numbers divisible by 3 are replaced by the word ping, words divisible by 5 are replaced by the word pong, and numbers divisible by 15 are replaced by the words ping-pong}_
 
 ## Specs
 
@@ -44,31 +44,27 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 *_replace numbers in user's return number list with the corresponding words  
   input example:18
   output example:1,2,ping,4,pong,ping,7,8,ping,pong,11,ping,13,14,ping-pong,ping,ping
-  
+
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+* _open gitbash_
+* _use git clone to clone down this address _
+* _open index.html in your browser_
 
 ## Known Bugs
 
-_{ }_
+_{no known bugs however there is no reset button so you have to manually reload the browser to start a new game}_
 
 ## Support and contact details
 
-_{}_
+_{for any questions or comments feel free to contact me at calvincushman@gmail.com}_
 
 ## Technologies Used
 
-_{}_
+_{ping pong was made using html, css, javascript, jquery, Bootstrap and atom}_
 
 ### License
 
-*{}*
+*{MIT liscense}*
 
 Copyright (c) 2016 **_{Calvin Cushman}_**
