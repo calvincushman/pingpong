@@ -2,7 +2,7 @@ var userInput ;
 
 var countCondition = userInput;
 
-var output = [];
+var game = [];
 
 var pingPong = function (countCondition) {
   for(i = 1; i <= countCondition ; i +=1) {
@@ -10,28 +10,37 @@ var pingPong = function (countCondition) {
     if(i <= countCondition) {
 
       if(i % 15 === 0) {
-        output.push("ping-pong!");
+        game.push("ping-pong!");
 
       }
 
       else if((i % 3 === 0) && (i % 15 !== 0)) {
-        output.push("ping!");
+        game.push("ping!");
 
       }
 
       else if((i % 5 === 0) && (i % 15 !== 0)) {
-        output.push("pong!")
+        game.push("pong!")
 
       }
 
-      else { output.push(i); }
+      else { game.push(i); }
     }
   }
 }
 
 $(function() {
 
+  $("#inputForm").submit(function(event) {
 
+    userInput = $("#input").val();
 
-event.preventDefault();
+    game = pingPong(countCondition)
+
+    game.forEach(function(game) {
+      $("ul").append("<li>"game"</li>");
+    });
+
+    event.preventDefault();
+  })
 })
