@@ -1,46 +1,46 @@
-var userInput ;
+var balls = [];
 
-var countCondition = userInput;
-
-var game = [];
-
-var pingPong = function (countCondition) {
+var pingPong = function(countCondition) {
   for(i = 1; i <= countCondition ; i +=1) {
 
     if(i <= countCondition) {
 
       if(i % 15 === 0) {
-        game.push("ping-pong!");
+        balls.push("ping-pong!");
 
       }
 
       else if((i % 3 === 0) && (i % 15 !== 0)) {
-        game.push("ping!");
+        balls.push("ping!");
 
       }
 
       else if((i % 5 === 0) && (i % 15 !== 0)) {
-        game.push("pong!")
+        balls.push("pong!")
 
       }
 
-      else { game.push(i); }
+      else { balls.push(i); }
+
     }
   }
 }
 
 $(function() {
 
-  $("#inputForm").submit(function(event) {
+  $("#inputForm").submit(function(event) { debugger;
 
-    userInput = $("#input").val();
+    var userInput = $("#input").val();
 
-    game = pingPong(countCondition)
+    var currentNumber = parseInt(userInput);
 
-    game.forEach(function(game) {
-      $("ul").append("<li>"game"</li>");
-    });
+    pingPong(currentNumber);
+
+    alert(currentGame);
+    // currentGame.forEach(function(currentGame) {
+    //   $("ul").text.append("<li>" + currentGame + "</li>");
+    // });
 
     event.preventDefault();
-  })
-})
+  });
+});
