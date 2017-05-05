@@ -37,8 +37,12 @@ $(function() {
 
     var currentNumber = parseInt(userInput);
 
-    $("ul") = pingPong(currentNumber) 
+    currentGame = pingPong(currentNumber);
 
+    currentGame.forEach(function(game) {
+      $("ul").append("<li>" + game + "</li>");
+
+    })
 
     event.preventDefault();
   });
