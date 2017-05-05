@@ -24,22 +24,21 @@ var pingPong = function(countCondition) {
 
     }
   }
-}
+
+  return balls;
+
+};
 
 $(function() {
 
-  $("#inputForm").submit(function(event) { debugger;
+  $("#inputForm").submit(function(event) {
 
     var userInput = $("#input").val();
 
     var currentNumber = parseInt(userInput);
 
-    pingPong(currentNumber);
+    $("ul") = pingPong(currentNumber) 
 
-    alert(currentGame);
-    // currentGame.forEach(function(currentGame) {
-    //   $("ul").text.append("<li>" + currentGame + "</li>");
-    // });
 
     event.preventDefault();
   });
