@@ -48,7 +48,7 @@ _{Ping pong takes a number input by the user and processes the number returning 
 ## Setup/Installation Requirements
 
 * _open gitbash_
-* _use git clone to clone down this address _
+* _use git clone to clone down this address https://github.com/calvincushman/pingpong _
 * _open index.html in your browser_
 
 ## Known Bugs
